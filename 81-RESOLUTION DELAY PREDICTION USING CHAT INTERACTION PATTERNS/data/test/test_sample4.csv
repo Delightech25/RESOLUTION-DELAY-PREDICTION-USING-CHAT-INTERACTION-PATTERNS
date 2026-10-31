@@ -1,0 +1,4 @@
+chat_id,timestamp,speaker,message,resolution_time_minutes
+4,2026-01-01 12:00:00,customer,How to change my address,18
+4,2026-01-01 12:02:00,agent,You can update in profile section,18
+4,2026-01-01 12:04:00,customer,Done thank you,18

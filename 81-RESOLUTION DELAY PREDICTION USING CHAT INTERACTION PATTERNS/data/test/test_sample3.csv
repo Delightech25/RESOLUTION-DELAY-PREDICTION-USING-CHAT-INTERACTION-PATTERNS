@@ -1,0 +1,5 @@
+chat_id,timestamp,speaker,message,resolution_time_minutes
+3,2026-01-01 11:00:00,customer,I want refund this is unacceptable,55
+3,2026-01-01 11:12:00,agent,Sorry for inconvenience,55
+3,2026-01-01 11:30:00,customer,I am very angry about this service,55
+3,2026-01-01 11:55:00,agent,Escalating to senior support,55

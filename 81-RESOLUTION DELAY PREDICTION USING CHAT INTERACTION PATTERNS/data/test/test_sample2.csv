@@ -1,0 +1,3 @@
+chat_id,timestamp,speaker,message,resolution_time_minutes
+2,2026-01-01 14:00:00,customer,Thank you for quick response,9
+2,2026-01-01 14:01:00,agent,Happy to help,9

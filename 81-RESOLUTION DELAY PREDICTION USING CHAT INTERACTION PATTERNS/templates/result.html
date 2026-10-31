@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Prediction Result{% endblock %}
+
+{% block content %}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow text-center">
+            <div class="card-body">
+
+                <h3 class="mb-4">Prediction Result</h3>
+
+                {% if prediction == "Delayed" %}
+                    <div class="alert alert-danger">
+                        <h4>⚠ High Risk of Delay</h4>
+                    </div>
+                {% else %}
+                    <div class="alert alert-success">
+                        <h4>✅ Likely On-Time Resolution</h4>
+                    </div>
+                {% endif %}
+
+                <p class="fs-5">
+                    Risk Score:
+                    <strong>{{ risk }}</strong>
+                </p>
+
+                <a href="/" class="btn btn-secondary mt-3">Back to Dashboard</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

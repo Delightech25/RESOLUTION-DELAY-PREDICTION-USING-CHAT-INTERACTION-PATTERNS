@@ -1,0 +1,24 @@
+chat_id,timestamp,speaker,message,resolution_time_minutes
+1,2026-01-01 10:00:00,customer,Hello I need help with my order,15
+1,2026-01-01 10:01:00,agent,Sure please provide your order ID,15
+1,2026-01-01 10:02:30,customer,Here it is 12345,15
+1,2026-01-01 10:05:00,agent,Thank you issue resolved,15
+
+2,2026-01-01 11:00:00,customer,My product is not working,45
+2,2026-01-01 11:05:00,agent,Can you explain the issue,45
+2,2026-01-01 11:15:00,customer,I already explained this before this is frustrating,45
+2,2026-01-01 11:30:00,agent,We are checking with technical team,45
+2,2026-01-01 11:50:00,customer,I want a refund now this is unacceptable,45
+
+3,2026-01-01 12:00:00,customer,I want to cancel my subscription,35
+3,2026-01-01 12:10:00,agent,May I know the reason,35
+3,2026-01-01 12:20:00,customer,Because it is not useful,35
+3,2026-01-01 12:40:00,agent,We will process your request,35
+
+4,2026-01-01 13:00:00,customer,Thank you for your support,10
+4,2026-01-01 13:01:00,agent,Happy to help,10
+
+5,2026-01-01 14:00:00,customer,This service is terrible,60
+5,2026-01-01 14:10:00,agent,Sorry for inconvenience,60
+5,2026-01-01 14:25:00,customer,I need refund immediately,60
+5,2026-01-01 14:50:00,agent,Escalating to senior support,60
